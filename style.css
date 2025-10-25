@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 200px;
+    height: 70px;
+    padding: 20px 20px;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding: 40px;
+    list-style: none;
+}
+
+nav ul li a:hover{
+    color: rgb(58, 52, 52);
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px ;
+    color: white;
+}
+
+/*---------- Section Hero ----------*/
+
+.hero{
+    background-image: url(fakta-lain-dari-avenged-sevonfold-ecb201.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background: white;
+    padding: 15px 35px;
+    border-radius: 50px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.hero-content{
+    position: relative;
+}
+
+.hero h1{
+    padding: 30px;
+    font-size: 100px;
+}
+
+.hero p{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+/*---------- Section 2 ----------*/
+
+.oreh{
+    background-image: url(avengedsevenfold.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: justify;
+    padding: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.oreh-content{
+    position: relative;
+}
+
+.oreh h1{
+    padding-bottom: 150px;
+    font-size: 50px;
+}
+
+.oreh h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.oreh p{
+    padding-bottom: 20px;
+}
+
+/*---------- Section Iklan ----------*/
+
+.iklan{
+    background-image: url(a7x.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 80px;
+}
+
+.judul{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.judul h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.judul h1::after{
+    content: '';
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -10px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 60px;
+    height: 3px;
+}
+
+.iklan-keseluruhan{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+.iklan-card{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.iklan-card:hover{
+    transform: translateY(-5px);
+}
+
+.gambar-iklan{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.pin{
+    position: absolute;
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.konten-iklan{
+    padding: 25px;
+}
+
+.konten-iklan h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);;
+}
+
+.konten-iklan p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);;
+}
+
+.konten-iklan a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    padding: 15px 35px;
+    border-radius: 50px;
+}
+
+/*---------- Section Iklan 2 ----------*/
+
+.tempat-duduk{
+    padding: 80px;  
+}
+
+.iklan-keseluruhan2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
